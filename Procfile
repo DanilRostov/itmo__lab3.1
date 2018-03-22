@@ -1,1 +1,1 @@
-web: node s.mjs
+web: node --experimental-modules s.mjs
