@@ -4,8 +4,8 @@ import { student } from './name';
 
 // Component Author
 let authorWrap = document.createElement( 'h4' );
-authorWrap.id = student.name;
-authorWrap.title = student.group;
+authorWrap.id = 'author';
+authorWrap.title = 'GossJS';
 let author = document.body.appendChild( authorWrap );
 
 author.textContent = `${ student.name }`;
